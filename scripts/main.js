@@ -1,5 +1,5 @@
 
 import {getFeelings} from "./moods.js"
-const container = document.querySelector('.container')
+const container = document.getElementById("container")
 
 container.innerHTML = getFeelings()
